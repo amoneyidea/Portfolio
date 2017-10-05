@@ -30,10 +30,33 @@ a{
   background-image: url('../images/Grass.png');
 }
 
+.BloomBoxHome {
+  background-image: url('../images/BloomBoxHome.png');
+}
 .RowHeight {
   min-height: 400px;
 }
 
+.picture{
+  font-size: 12px;
+  color: #003300;
+  font-family: sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+.pictureTitle{
+  font-size: 15;
+  color: #003300;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.border{
+  border-color: #f6f6f6;
+  border-width: 3px;
+}
 .projectFont {
   font-size: 36px;
 }
@@ -91,7 +114,7 @@ margin-right: 20px;
   background-size: contain;
   font-size: 100px;
 }
-img {
+.imgA {
 opacity: .3;
 z-index: -1
 }
