@@ -14,6 +14,14 @@ a{
   background-image: url('../images/Clouds.png');
 }
 
+/*.Bamboo {
+  background-image: url('../images/Bamboo.png');
+}*/
+
+.NotepadUXUI {
+  background-image: url('../images/NotepadUXUI.png');
+}
+
 .Notebook3 {
   background-image: url('../images/Notebook3.png');
 }
@@ -23,7 +31,7 @@ a{
 }
 
 .RowHeight {
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .projectFont {
@@ -84,6 +92,19 @@ z-index: -1
 
 .blue{
   color: #000033;
+}
+
+.parallax{
+  /*height: 100%;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Grass{
+  height: 500px;
+  background-image: url(../Images/Grass.png);
 }
 
 /*Contact sectiom*/
