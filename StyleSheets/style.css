@@ -1,0 +1,155 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: url('images/Clouds.png') no-repeat fixed center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clouds {
+  background-image: url('../images/Clouds.png');
+}
+
+.Notebook3 {
+  background-image: url('../images/Notebook3.png');
+}
+
+.Grass {
+  background-image: url('../images/Grass.png');
+}
+
+.RowHeight {
+  min-height: 500px;
+}
+
+.projectFont {
+  font-size: 36px;
+}
+
+.text{
+  color: #000033;
+  text-align: center;
+  font-weight: bolder;
+  }
+.text2{
+    color: #000033;
+    text-align: right;
+    font-weight: bolder;
+    }
+
+
+.across li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.across {
+position: relative;
+right: 0;
+text-align: right;
+font-family: sans-serif;
+margin-right: 20px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.center {
+  text-align: center;
+}
+.contain {
+  background-size: contain;
+  font-size: 100px;
+}
+img {
+opacity: .3;
+z-index: -1
+}
+
+.blue{
+  color: #000033;
+}
+
+/*Contact sectiom*/
+.content-header{
+  font-family: sans-serif;
+  color:#ffffff;
+  font-size: 35px;
+}
+
+.section-content{
+  text-align: right;
+}
+#contact{
+
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+.contact-section{
+  padding-top: 0px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+  column-rule: center;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+/*body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+* { color:#fff; text-decoration: none;}*/
