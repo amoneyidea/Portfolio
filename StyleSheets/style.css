@@ -30,16 +30,16 @@ a{
   background-image: url('../images/Grass.png');
 }
 
-.BloomBoxHome {
-  background-image: url('../images/BloomBoxHome.png');
-}
 .RowHeight {
-  min-height: 400px;
+  min-height: 500px;
+}
+.border-width{
+  border-width: 5px;
 }
 
 .picture{
   font-size: 12px;
-  color: #003300;
+  color: #000033;
   font-family: sans-serif;
   line-height: normal;
   text-align: center;
@@ -47,7 +47,7 @@ a{
 
 .pictureTitle{
   font-size: 15;
-  color: #003300;
+  color: #000033;
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
