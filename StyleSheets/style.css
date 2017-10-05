@@ -88,8 +88,9 @@ z-index: -1
 
 /*Contact sectiom*/
 .content-header{
-  font-family: 'Oleo Script', cursive;
-  color:#fcc500;
+  font-family: sans-serif;
+  color:#FFFFFF;
+  font-weight: bold;
   font-size: 45px;
 }
 
@@ -99,7 +100,7 @@ z-index: -1
 }
 #contact{
 
-    font-family: 'Teko', sans-serif;
+    font-family: sans-serif;
   padding-top: 60px;
   width: 100%;
   width: 100vw;
