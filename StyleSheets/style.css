@@ -88,30 +88,32 @@ z-index: -1
 
 /*Contact sectiom*/
 .content-header{
-  font-family: sans-serif;
-  color:#ffffff;
-  font-size: 35px;
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
 }
 
 .section-content{
-  text-align: right;
+  text-align: center;
+
 }
 #contact{
-  font-family: 'Teko', sans-serif;
+
+    font-family: 'Teko', sans-serif;
   padding-top: 60px;
-  /*width: 100%;
-  width: 100vw;*/
+  width: 100%;
+  width: 100vw;
+  /*height: 550px;*/
   background: #3a6186; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color : #fff;
+    color : #fff;
 }
 .contact-section{
-  padding-top: 0px;
+  padding-top: 40px;
 }
 .contact-section .col-md-6{
   width: 50%;
-  column-rule: center;
 }
 
 .form-line{
@@ -143,12 +145,3 @@ textarea.form-control {
   color: #fff;
 
 }
-
-/*body {
-  background-color:#ce3635;
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
-}
-
-* { color:#fff; text-decoration: none;}*/
