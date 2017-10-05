@@ -20,6 +20,7 @@ a{
 
 .NotepadUXUI {
   background-image: url('../images/NotepadUXUI.png');
+  height: 500px;
 }
 
 .Notebook3 {
@@ -134,6 +135,11 @@ z-index: -1
 #Grass{
   height: 500px;
   background-image: url(../Images/Grass.png);
+}
+
+#NotepadUXUI{
+  height: 500px;
+  background-image: url(../Images/NotepadUXUI.png);
 }
 
 /*Contact sectiom*/
