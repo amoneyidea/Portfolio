@@ -27,6 +27,16 @@ a{
   height: 500px;
 }
 
+.Phone {
+  background-image: url('../images/Phone.png');
+  height: 500px;
+}
+
+.Mac {
+  background-image: url('../images/Mac.png');
+  height: 500px;
+}
+
 .Notebook3 {
   background-image: url('../images/Notebook3.png');
 }
@@ -40,6 +50,7 @@ a{
 }
 .border-width{
   border-width: 5px;
+  border-color: black;
 }
 
 .picture{
@@ -67,18 +78,18 @@ a{
 }
 
 .clear{
-  color: #003300;
+  color: #000000;
   font-size: 100;
   text-align: center;
 }
 
 .text{
-  color: #000033;
+  color: #000000;
   text-align: center;
   font-weight: bolder;
   }
 .text2{
-    color: #000033;
+    color: #000000;
     text-align: right;
     font-weight: bolder;
     }
@@ -91,7 +102,7 @@ a{
 }
 
 .text3A{
-  color: #000033;
+  color: #000000;
   text-align: center;
   font-weight: bolder;
   font-family: sans-serif;
@@ -105,13 +116,13 @@ a{
 }
 
 .text4A{
-  color: #000033;
+  color: #000000;
   font-family: sans-serif;
   font-size: 24px;
 }
 
 .text5{
-  color: #000033;
+  color: #000000;
   font-family: sans-serif;
   font-size: 16px;
   text-align: justify;
@@ -133,6 +144,14 @@ right: 0;
 text-align: right;
 font-family: sans-serif;
 margin-right: 20px;
+}
+
+.Readbtn {
+  background-color: black;
+}
+
+.border {
+  border-color: black;
 }
 
 .sticky {
@@ -189,6 +208,16 @@ z-index: -1
   background-image: url(../Images/Blue_Wall.png);
 }
 
+#Phone{
+  height: 400px;
+  background-image: url(../Images/Phone.png);
+}
+
+#Mac{
+  height: 400px;
+  background-image: url(../Images/Mac.png);
+}
+
 /*Contact sectiom*/
 .content-header{
   font-family: sans-serif;
@@ -209,8 +238,8 @@ z-index: -1
   width: 100vw;
   /*height: 550px;*/
   background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #000000 , #000000 , #000033 , #000033 , #003366); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #000000 , #000033 , #000033 , #003366); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;
 }
 .contact-section{
