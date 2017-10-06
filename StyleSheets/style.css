@@ -83,6 +83,14 @@ a{
   text-align: center;
 }
 
+.topbar{
+  background-color: black;
+  color: #000000;
+}
+.navtext{
+  color: #000000;
+}
+
 .text{
   color: #000000;
   text-align: center;
@@ -235,11 +243,11 @@ z-index: -1
     font-family: sans-serif;
   padding-top: 60px;
   width: 100%;
-  width: 100vw;
+  /*width: 100vw;*/
   /*height: 550px;*/
   background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000 , #000000 , #000033 , #000033 , #003366); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000 , #000000 , #000033 , #000033 , #003366); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #000000 , #000000 , #000003 , #000033 , #000033 , #007bff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #000000 , #000003 , #000033 , #000033 , #007bff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;
 }
 .contact-section{
@@ -279,7 +287,7 @@ textarea.form-control {
 
 }
 .btn{
-  border-color: #ffffff
+  border-color: #ffffff;
 }
 
 /*html {
