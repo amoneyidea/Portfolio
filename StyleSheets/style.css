@@ -22,6 +22,10 @@ a{
   background-image: url('../images/NotepadUXUI.png');
   height: 500px;
 }
+.Blue_Wall {
+  background-image: url('../images/Blue_Wall.png');
+  height: 500px;
+}
 
 .Notebook3 {
   background-image: url('../images/Notebook3.png');
@@ -180,6 +184,11 @@ z-index: -1
   background-image: url(../Images/NotepadUXUI.png);
 }
 
+#Blue_Wall{
+  height: 400px;
+  background-image: url(../Images/Blue_Wall.png);
+}
+
 /*Contact sectiom*/
 .content-header{
   font-family: sans-serif;
@@ -244,9 +253,9 @@ textarea.form-control {
   border-color: #ffffff
 }
 
-html {
+/*html {
   font-size: 10px;
-}
+}*/
 
 /*@media (min-width: 576px) {
   html {
@@ -254,7 +263,7 @@ html {
   }
 }*/
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   html {
     font-size: 14px;
   }
@@ -270,4 +279,4 @@ html {
   html {
     font-size: 28px;
   }
-}
+}*/
