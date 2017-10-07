@@ -53,6 +53,10 @@ a{
   border-color: black;
 }
 
+.right{
+  text-align: right;
+}
+
 .picture{
   font-size: 12px;
   color: #000033;
