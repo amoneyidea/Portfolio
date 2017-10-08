@@ -100,6 +100,17 @@ a{
   text-align: center;
   font-weight: bolder;
   }
+  .textA{
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+    }
+
+    .textB{
+      color: #000000;
+      text-align: center;
+      }
+
 .text2{
     color: #000000;
     text-align: right;
@@ -138,6 +149,15 @@ a{
   font-family: sans-serif;
   font-size: 16px;
   text-align: justify;
+}
+
+.text6{
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+  vertical-align: baseline;
+  font-weight: bold;
 }
 
 .pt-auto {
@@ -263,6 +283,8 @@ z-index: -1
 
 .form-line{
   border-right: 1px solid #B29999;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .form-group{
